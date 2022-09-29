@@ -1,0 +1,9 @@
+{
+  "name": "worker-rapier-test",
+  "version": "0.0.1",
+  "main": "main.mjs",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx http-serve ."
+  }
+}
