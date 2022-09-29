@@ -5,6 +5,7 @@ export const createGame = async (worker = false) => {
   canvas.width = 800;
   canvas.height = 200;
   document.body.appendChild(canvas);
+  document.body.appendChild(document.createElement("br"));
   const app = new pc.Application(canvas, {});
 
   const camera = new pc.Entity("camera");
