@@ -45,9 +45,9 @@ export const PhysicsSystem = (world, rigidBody, elapsed, dt) => {
 
   rigidBody.setNextKinematicTranslation(t);
 
-  if (++ticks % 1 === 0) {
+  // if (++ticks % 1 === 0) {
     world.step();
-  }
+  // }
 
   return world.debugRender();
 };
